@@ -74,7 +74,7 @@ for (x in a1){
 	console.log(a1[x]);
 }
 for (x in a2){
-console.log(`${x} and ${a2.x}`);
+console.log(`${x} and ${a2[x]}`);
 }
 for( x of a1){
 	console.log(x);	
